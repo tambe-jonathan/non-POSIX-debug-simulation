@@ -4,7 +4,7 @@ A lightweight DevOps lab project that demonstrates how non-POSIX compliant line 
 
 This simulation recreates a real-world environment drift issue commonly encountered in distributed engineering teams working across Windows and Linux systems.
 
----
+--- 
 
 # Objective 
 
