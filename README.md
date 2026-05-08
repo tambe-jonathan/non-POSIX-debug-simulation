@@ -10,7 +10,7 @@ This simulation recreates a real-world environment drift issue commonly encounte
 
 The purpose of this project is to simulate:
 
-- CI/CD pipeline failures caused by shell incompatibility 
+- CI/CD pipeline failures caused by shell incompatibility  
 - Environment drift between developer machines and Linux runners
 - CRLF (`\r\n`) vs LF (`\n`) line-ending issues 
 - Script portability problems in minimal container environments
