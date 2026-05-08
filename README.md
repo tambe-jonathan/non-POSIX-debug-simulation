@@ -6,7 +6,7 @@ This simulation recreates a real-world environment drift issue commonly encounte
 
 ---
 
-# Objective
+# Objective 
 
 The purpose of this project is to simulate:
 
