@@ -1,0 +1,19 @@
+name: Evidence of Failure
+
+on: [push]
+
+jobs:
+  simulate-failure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker Image
+        run: docker build -t crlf-demo .
+
+      - name: Run Script (Expecting Failure)
+        run: |
+          echo "Starting simulation..."
+          # This will fail on GitHub's Linux runners if CRLF is present
+          docker run --rm crlf-demo
