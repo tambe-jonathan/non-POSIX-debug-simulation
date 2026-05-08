@@ -12,7 +12,7 @@ The purpose of this project is to simulate:
 
 - CI/CD pipeline failures caused by shell incompatibility
 - Environment drift between developer machines and Linux runners
-- CRLF (`\r\n`) vs LF (`\n`) line-ending issues
+- CRLF (`\r\n`) vs LF (`\n`) line-ending issues 
 - Script portability problems in minimal container environments
 - Proper remediation using shell standardization and Git normalization
 
